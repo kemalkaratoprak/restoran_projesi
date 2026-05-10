@@ -6,7 +6,7 @@ class Siparis:
 
     def urun_ekle(self, urun, adet):
         try:
-            # Savunmacı Programlama: Hatalı giriş kontrolü [cite: 11, 46]
+            # Savunmacı Programlama: Hatalı giriş kontrolü yapıyorum
             if adet <= 0:
                 raise ValueError("Ürün adedi 0'dan büyük olmalıdır!")
             
@@ -14,7 +14,7 @@ class Siparis:
             print(f"Eklendi: {adet} adet {urun.ad}")
             
         except ValueError as e:
-            print(f"Hata oluştu: {e}") # Kullanıcıya anlamlı hata mesajı [cite: 47]
+            print(f"Hata oluştu: {e}") # Kullanıcıya anlamlı hata mesajı veriyorum
 
     def toplam_tutar_hesapla(self):
         toplam = 0
