@@ -1,7 +1,7 @@
 class MenuItem:
     def __init__(self, name, price):
-        self.__name = name    # Kapsülleme: Private değişken [cite: 42]
-        self.__price = price  # Kapsülleme: Private değişken [cite: 42]
+        self.__name = name    #Private değişken kullanıyorum
+        self.__price = price  #Private değişken kullanıyorum
 
     def get_details(self):
         return f"{self.__name}: {self.__price} TL"
