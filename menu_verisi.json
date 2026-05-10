@@ -1,26 +1,56 @@
 [
     {
         "ad": "urfa kebap",
-        "fiyat": 350.0
+        "fiyat": 350.0,
+        "tur": "Yemek",
+        "ozellik": 0
     },
     {
         "ad": "adana kebap",
-        "fiyat": 350.0
+        "fiyat": 350.0,
+        "tur": "Yemek",
+        "ozellik": 0
     },
     {
         "ad": "tavuk şiş",
-        "fiyat": 250.0
+        "fiyat": 250.0,
+        "tur": "Yemek",
+        "ozellik": 0
     },
     {
         "ad": "döner",
-        "fiyat": 250.0
+        "fiyat": 250.0,
+        "tur": "Yemek",
+        "ozellik": 0
     },
     {
         "ad": "ayran",
-        "fiyat": 20.0
+        "fiyat": 20.0,
+        "tur": "Yemek",
+        "ozellik": 0
     },
     {
         "ad": "soda",
-        "fiyat": 30.0
+        "fiyat": 30.0,
+        "tur": "Yemek",
+        "ozellik": 0
+    },
+    {
+        "ad": "kola",
+        "fiyat": 40.0,
+        "tur": "İçecek",
+        "ozellik": true
+    },
+    {
+        "ad": "çay",
+        "fiyat": 5.0,
+        "tur": "İçecek",
+        "ozellik": false
+    },
+    {
+        "ad": "ciğer şiş",
+        "fiyat": 300.0,
+        "tur": "Yemek",
+        "ozellik": 500
     }
 ]
