@@ -1,9 +1,5 @@
 [
     {
-        "ad": "Varsayılan Kebap",
-        "fiyat": 200
-    },
-    {
         "ad": "urfa kebap",
         "fiyat": 350.0
     },
@@ -22,5 +18,9 @@
     {
         "ad": "ayran",
         "fiyat": 20.0
+    },
+    {
+        "ad": "soda",
+        "fiyat": 30.0
     }
 ]
