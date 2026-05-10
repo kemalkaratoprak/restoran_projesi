@@ -1,11 +1,11 @@
-class MenuItem:
-    def __init__(self, name, price):
-        self.__name = name    #Private değişken kullanıyorum
-        self.__price = price  #Private değişken kullanıyorum
+class MenuElemani:
+    def __init__(self, ad, fiyat):
+        self.__ad = ad    #Private değişken kullanıyorum
+        self.__fiyat = fiyat  #Private değişken kullanıyorum
 
-    def get_details(self):
-        return f"{self.__name}: {self.__price} TL"
+    def detaylari_getir(self):
+        return f"{self.__ad}: {self.__fiyat} TL"
 
     @property
-    def price(self):
-        return self.__price
+    def fiyat(self):
+        return self.__fiyat

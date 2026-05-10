@@ -1,22 +1,20 @@
-from .menu import MenuItem
+from .menu import MenuElemani
 
-class Food(MenuItem):
-    def __init__(self, name, price, calories):
-        super().__init__(name, price)
-        self.calories = calories
+class Yemek(MenuElemani):
+    def __init__(self, ad, fiyat, kalori):
+        super().__init__(ad, fiyat)
+        self.kalori = kalori
 
-    def get_details(self):
-        # burada ana sınıfın metodunu özelleşiriyorum
-        base_details = super().get_details()
-        return f"{base_details} - {self.calories} kcal"
+    def detaylari_getir(self):
+        temel_detay = super().detaylari_getir()
+        return f"{temel_detay} - {self.kalori} kcal"
 
-class Drink(MenuItem):
-    def __init__(self, name, price, is_cold=True):
-        super().__init__(name, price)
-        self.is_cold = is_cold
+class Icecek(MenuElemani):
+    def __init__(self, ad, fiyat, soguk_mu=True):
+        super().__init__(ad, fiyat)
+        self.soguk_mu = soguk_mu
 
-    def get_details(self):
-        
-        temp = "Soğuk" if self.is_cold else "Sıcak"
-        base_details = super().get_details()
-        return f"{base_details} ({temp})"
+    def detaylari_getir(self):
+        sicaklik = "Soğuk" if self.soguk_mu else "Sıcak"
+        temel_detay = super().detaylari_getir()
+        return f"{temel_detay} ({sicaklik})"
