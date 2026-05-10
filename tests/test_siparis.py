@@ -16,7 +16,7 @@ def test_siparis_toplam_hesaplama():
     assert siparis.toplam_tutar_hesapla() == 200
 
 def test_hatali_adet_ekleme():
-    # Negatif adet eklendiğinde sistem boş kalmalı (Hata yönetimi testi)
+    # Negatif adet eklendiğinde sistem boş kalmalı 
     siparis = Siparis()
     icecek = Icecek("Su", 10)
     siparis.urun_ekle(icecek, -5)
